@@ -1,0 +1,65 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+
+body{
+	background-color: lightblue;
+}
+
+header,nav{
+	/*#0d1f2d*/
+	background-color:cadetblue;
+	color: lightyellow;
+	
+
+}
+
+nav{
+	text-align: right;
+	word-spacing: 12px;
+	justify-content: space-around;
+	
+	height: 5vh;
+}
+
+/*To remove underline*/
+nav a{
+	text-decoration: none;
+	color: whitesmoke;
+	/*font-weight: bold;*/
+}
+nav a:hover{
+	/*background-color: #fef9ff;*/
+    font-weight: bold;
+}
+
+/*When clicked
+*/nav a:active{
+	
+}
+
+/*nav a:visited{
+	color:blue;
+}*/
+
+footer{
+	background-color: darkgreen;
+	color:lightyellow ;
+	text-align: center;
+
+}
+
+.tab1{
+background-color: lightpink;
+width:100%;
+}
+
+.tab2{
+	background-color: lightpink;
+
+}
+
